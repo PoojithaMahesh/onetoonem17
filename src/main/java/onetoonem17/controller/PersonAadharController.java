@@ -43,14 +43,61 @@ public static void main(String[] args) {
 //	PersonDao dao=new PersonDao();
 //	dao.savePerson(person);
 	
+//	
+//	AadharCard aadharCard=new AadharCard();
+//	aadharCard.setId(300);
+//	aadharCard.setName("abhi");
+//	aadharCard.setAge(19);
+//	
+//	AadharCardDao aadharCardDao=new AadharCardDao();
+//	aadharCardDao.saveAadharCard(3, aadharCard);
 	
-	AadharCard aadharCard=new AadharCard();
-	aadharCard.setId(300);
-	aadharCard.setName("abhi");
-	aadharCard.setAge(19);
+//	FIND
 	
-	AadharCardDao aadharCardDao=new AadharCardDao();
-	aadharCardDao.saveAadharCard(3, aadharCard);
+//	PersonDao dao=new PersonDao();
+//	dao.findPerson(1);
+//	
+//	AadharCardDao aadharCardDao=new AadharCardDao();
+//	aadharCardDao.findAadharCard(100);
+	
+//	Delete
+	
+//	AadharCardDao aadharCardDao=new AadharCardDao();
+//	aadharCardDao.deleteAadharCard(300);
+//	PersonDao personDao=new PersonDao();
+//	personDao.deletePerson(3);
+//	AadharCard aadharCard=new AadharCard();
+//	
+//	aadharCard.setName("swathiSoftwaredeveloper");
+//	
+//	
+//	AadharCardDao aadharCardDao=new AadharCardDao();
+//	aadharCardDao.updateAadharCard(200, aadharCard);
+	Person person=new Person();
+
+	person.setName("swathiJM");
+	person.setAddress("Mysore");
+	
+	
+	
+	
+	
+	PersonDao personDao=new PersonDao();
+	personDao.updatePerson(2,person);
+//	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
